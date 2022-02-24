@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+
+  background-color: black;
+  color: white;
+   height: 70px;
+
+}
+h1 span{
+  color: orange;
+  font-size: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  vertical-align: middle;
+
+}
+
+.nav-bar ul{
+  background-color: #696969;
+ display: flex;
+ list-style-type:none;
+ text-align: center;
+  overflow: hidden;
+  padding: 14px 0px;
+ font-size: 17px;
+ list-style: none;
+
+}
+.nav-bar li a{
+text-decoration: none;  
+color: white;
+border-right: 1px solid black;
+text-align: center;
+padding: 20px 19px;
+ list-style: none;
+
+
+
+}
+
+.main{
+width: 100%;
+float: left;
+   
+
+
+}
+.menu{
+
+float: right;
+background-color: rgb(221, 214, 214);    
+height: 680px;
+
+}
+.menu h2{
+padding-left: 25px;
+
+}
+.menu li a{
+
+color: #DC8A2C;   
+text-decoration: none;
+padding: 29px;
+margin: 5px;
+}
+.menu li{
+list-style: none;
+padding: 4px;
+
+}
+.menu ul{
+
+padding: 22px;
+
+
+}
+
+div.box1{
+margin: 22px;
+width: 160px;
+height: 161px;
+float: left;
+background-color: 	#A9A9A9
+
+}
+
+.container{
+display: flex;
+}
+
+
+
+.div ,h2{
+text-decoration: none;
+text-align: start;
+margin-top: 20px;
+margin-bottom: 0;
+
+
+
+}
+b {
+color:  #DC8A2C;
+
+}
+  p{
+   margin-top: 20px;
+ }
+
+.footer {
+
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+padding: 15px;
+
+ 
+
+}
+.article p{
+ padding-left: 15px;
+ 
+
+}
+.article h2{
+  padding-left: 15px;
+}
+#cc
+{
+color: #DC8A2C;
+font-size: 16px !important;
+}
+
+.footer span{
+  color: #DC8A2C;
+}
+
+.footer p{
+  text-align: center;
+  margin-top: 8px;
+
+  
+}
