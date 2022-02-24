@@ -1,0 +1,46 @@
+body {background-color: yellow;}
+
+.right{
+    display: inline-block;
+    width: 33%;
+    margin: 11px 0 0 19px;
+    color:  #cc1111;    
+    padding: 55px;
+}
+
+  .left{
+    
+    float: left;
+    height: 0px;
+    margin: 44px;
+    padding: 40px;      
+      }
+    
+  li {
+
+     
+      text-decoration: none;      
+      list-style: none;
+       width: 148px;   
+
+    }
+
+    li a{
+      margin: 10px;
+      text-decoration: none;
+      font-weight: 800;    
+       padding: 19px;
+       
+                 
+    }   
+
+ul li{
+  padding: 11px;
+  margin: 11px;
+  height: 30px;
+  font-size: 21px;
+  background-color: white;
+  border-right: 19px solid black;
+  text-decoration: none;  
+
+}
