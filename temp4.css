@@ -1,0 +1,491 @@
+                                        body {
+                                            box-sizing: border-box;
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+                                        
+                                        li {
+                                            display: inline;
+                                            padding: 12px;
+                                            float: left;
+                                        }
+                                        
+                                        li a {
+                                            color: black;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        ul {
+                                            float: right;
+                                        }
+                                        
+                                        .nev {
+                                            padding: 10px;
+                                        }
+                                        
+                                        .nev img {
+                                            padding: 10px;
+                                            margin-left: 89px;
+                                        }
+                                        /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+                                        
+                                        @media screen and (max-width: 500px) {
+                                            .nav a {
+                                                float: none;
+                                                display: block;
+                                                text-align: left;
+                                            }
+                                        }
+                                        
+                                        .left-1 {
+                                            display: flex;
+                                            width: 100%;
+                                            margin-left: 20px;
+                                        }
+                                        
+                                        .column1 {
+                                            background-image: url("./left-banner-image.jpg");
+                                            width: 50%;
+                                            background-size: cover;
+                                            padding-left: 15px;
+                                            padding-top: 10px;
+                                        }
+                                        
+                                        @media screen and(max-width: 800px) {
+                                            .right1 {
+                                                display: inline;
+                                            }
+                                            .column-1 {
+                                                display: inline;
+                                            }
+                                            .column-2 {
+                                                display: inline;
+                                            }
+                                        }
+                                        
+                                        .right1 {
+                                            width: 50%;
+                                            padding-left: 15px;
+                                            height: 80%;
+                                        }
+                                        
+                                        .column1 h1,
+                                        a {
+                                            color: white;
+                                            text-decoration: none;
+                                        }
+                                        
+                                        .column1 h1 {
+                                            margin-top: 223px;
+                                            font-size: 60px;
+                                            padding-left: 70px;
+                                        }
+                                        
+                                        .column1 p {
+                                            padding-left: 80px;
+                                            margin-bottom: 43px;
+                                            font-weight: bold;
+                                            color: white;
+                                        }
+                                        
+                                        .column1 a {
+                                            border: 1px solid white;
+                                            margin-left: 70px;
+                                            padding: 10px;
+                                        }
+                                        
+                                        .column1 img {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                        
+                                        .column-1 {
+                                            display: flex;
+                                            padding-bottom: 20px;
+                                        }
+                                        
+                                        .column-1 h2 {
+                                            text-align: center;
+                                            color: white;
+                                            margin-top: 130px;
+                                        }
+                                        
+                                        .column-1 p {
+                                            text-align: center;
+                                            color: white;
+                                        }
+                                        
+                                        .column-2 h2 {
+                                            text-align: center;
+                                            color: white;
+                                            margin-top: 130px;
+                                        }
+                                        
+                                        .column-2 p {
+                                            text-align: center;
+                                            color: white;
+                                        }
+                                        
+                                        .column-2 {
+                                            display: flex;
+                                        }
+                                        
+                                        .side-img1 {
+                                            background-image: url("./baner-right-image-01.jpg");
+                                            width: 600px;
+                                            height: 250px;
+                                            background-size: cover;
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        .side-img2 {
+                                            background-image: url("./baner-right-image-02.jpg");
+                                            width: 600px;
+                                            height: 250px;
+                                            background-size: cover;
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        .side-img3 {
+                                            background-image: url("./baner-right-image-03.jpg");
+                                            background-size: cover;
+                                            width: 600px;
+                                            height: 250px;
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        .side-img4 {
+                                            background-image: url("./baner-right-image-04.jpg");
+                                            background-size: cover;
+                                            width: 600px;
+                                            height: 250px;
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        @media screen and (max-width: 600px) {
+                                            .column-1 {
+                                                flex: 100%;
+                                                max-width: 100%;
+                                            }
+                                            .column1 {
+                                                width: 100%;
+                                            }
+                                        }
+                                        /* ************** */
+                                        
+                                        .grey {
+                                            color: grey;
+                                        }
+                                        
+                                        .black {
+                                            color: black;
+                                        }
+                                        /* ************************** */
+                                        
+                                        .men {
+                                            display: flex;
+                                            width: 100%;
+                                        }
+                                        
+                                        .men1 {
+                                            padding-left: 10px;
+                                        }
+                                        
+                                        .men2 {
+                                            padding-left: 10px;
+                                        }
+                                        
+                                        .men3 {
+                                            padding-left: 10px;
+                                        }
+                                        
+                                        .pre {
+                                            margin-top: 200px;
+                                            margin-left: 20px;
+                                        }
+                                        
+                                        .next {
+                                            margin-top: 200px;
+                                            margin-right: 20px;
+                                        }
+                                        
+                                        .next img {
+                                            border: 1px solid black;
+                                            padding: 10px;
+                                        }
+                                        
+                                        .pre img {
+                                            border: 1px solid black;
+                                            padding: 10px;
+                                        }
+                                        
+                                        #left {
+                                            margin-left: 90px;
+                                        }
+                                        
+                                        span {
+                                            font-size: 12px;
+                                            margin-left: 150px;
+                                        }
+                                        /* Responsive layout - makes a two column-layout instead of four columns */
+                                        
+                                        @media screen and (max-width: 800px) {
+                                            .row {
+                                                display: inline;
+                                            }
+                                            .column {
+                                                flex: 50%;
+                                                max-width: 50%;
+                                                display: inline;
+                                            }
+                                            .column1 {
+                                                width: 100%;
+                                            }
+                                        }
+                                        /* ***************************** */
+                                        /* .last {
+                                width: 55%;
+                                float: left;
+                                margin-left: 33px;
+                            }
+                            
+                            .button1 {
+                                border: solid 1px;
+                            }
+                            
+                            .left-row {
+                                margin-top: 43px;
+                            }
+                            
+                            .column2 {
+                                display: flex;
+                            }
+                            
+                            .column21 {
+                                display: flex;
+                                padding: 5px;
+                            }
+                            
+                            .left-img1 {
+                                width: 250px;
+                                height: 180px;
+                                background-color: #cccccc;
+                                text-align: center;
+                            }
+                            
+                            .left-img1 h2 {
+                                margin-top: 50px;
+                                margin-left: 22px;
+                            }
+                            
+                            .left-img4 h2 {
+                                margin-top: 50px;
+                                margin-left: 22px;
+                            }
+                            
+                            .left-img4 p {
+                                margin-left: 25px;
+                            }
+                            
+                            .left-img2 {
+                                background-image: url(./explore-image-01.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                width: 250px;
+                                height: 180px;
+                            }
+                            
+                            .left-img3 {
+                                background-image: url(./explore-image-02.jpg);
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                width: 250px;
+                                height: 180px;
+                            }
+                            
+                            .left-img4 {
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                width: 250px;
+                                height: 180px;
+                                background-color: #cccccc;
+                            } */
+                                        
+                                        @media screen and (max-width: 800px) {
+                                            .first {
+                                                display: inline;
+                                            }
+                                        }
+                                        
+                                        .first {
+                                            display: flex;
+                                            padding-right: 30px;
+                                        }
+                                        
+                                        .column2 {
+                                            display: flex;
+                                            padding-top: 20px;
+                                        }
+                                        
+                                        #qq {
+                                            font-size: 50px;
+                                        }
+                                        
+                                        .Explor {
+                                            padding-left: 30px;
+                                            text-align: justify;
+                                            width: 50%;
+                                            height: auto;
+                                            padding-right: 50px;
+                                        }
+                                        
+                                        .side-img5 {
+                                            margin-right: 20px;
+                                            width: 300px;
+                                            height: 200px;
+                                            background-color: #cccccc;
+                                            text-align: center;
+                                        }
+                                        
+                                        .side-img5 h2 {
+                                            margin-top: 50px;
+                                        }
+                                        
+                                        .side-img6 {
+                                            background-image: url(./explore-image-01.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 300px;
+                                            height: 200px;
+                                        }
+                                        
+                                        .side-img7 {
+                                            margin-right: 20px;
+                                            background-image: url(./explore-image-02.jpg);
+                                            background-repeat: no-repeat;
+                                            background-size: cover;
+                                            width: 300px;
+                                            height: 200px;
+                                        }
+                                        
+                                        .side-img8 {
+                                            width: 300px;
+                                            height: 200px;
+                                            background-color: #cccccc;
+                                            text-align: center;
+                                        }
+                                        
+                                        .side-img8 h2 {
+                                            margin-top: 50px;
+                                        }
+                                        
+                                        .social {
+                                            padding-left: 33px;
+                                        }
+                                        
+                                        @media screen and (max-width: 800px) {
+                                            .news {
+                                                display: inline;
+                                            }
+                                        }
+                                        
+                                        .news {
+                                            padding: 49px;
+                                            float: left;
+                                            width: 50%;
+                                            display: inline;
+                                        }
+                                        
+                                        .address {
+                                            padding: 39px;
+                                            float: right;
+                                        }
+                                        
+                                        .addressLeft {
+                                            padding: 39px;
+                                        }
+                                        
+                                        .right-1 {
+                                            display: flex;
+                                        }
+                                        /* ***************************** */
+                                        
+                                        .over {
+                                            background-color: black;
+                                            color: white;
+                                            padding-bottom: 50px;
+                                        }
+                                        
+                                        .footer {
+                                            display: flex;
+                                            margin-left: 100px;
+                                            margin-top: 40px;
+                                            padding-top: 40px;
+                                        }
+                                        
+                                        .heading {
+                                            margin-left: 100px;
+                                        }
+                                        
+                                        .center {
+                                            text-align: center;
+                                        }
+                                        
+                                        .center a {
+                                            padding: 10px;
+                                            color: rgb(186, 227, 243);
+                                        }
+                                        
+                                        .log {
+                                            background-color: black;
+                                            color: #cccccc;
+                                        }
+                                        
+                                        @media screen and (max-width: 600px) {
+                                            .footer {
+                                                display: inline;
+                                            }
+                                            .heading {
+                                                margin: 0;
+                                                padding: 0;
+                                            }
+                                        }
+                                        
+                                        .head h1 {
+                                            margin-left: 100px;
+                                        }
+                                        
+                                        .p {
+                                            margin-left: 101px;
+                                            color: gray;
+                                        }
+                                        
+                                        .head1 h1 {
+                                            margin-left: 70px;
+                                        }
+                                        
+                                        .p1 {
+                                            margin-left: 71px;
+                                            color: gray;
+                                        }
+                                        
+                                        .login {
+                                            margin-left: 60px;
+                                        }
+                                        
+                                        .head2 h1 {
+                                            margin-left: 50px;
+                                        }
+                                        
+                                        .p3 {
+                                            margin-left: 20px;
+                                        }
+                                        
+                                        .hh p {
+                                            margin-left: 54px;
+                                        }
+                                        
+                                        .final {
+                                            margin-left: 69px;
+                                            width: auto;
+                                        }
